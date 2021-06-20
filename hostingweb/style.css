@@ -1,0 +1,133 @@
+.header{
+	width:1366px;
+	height:579px;
+	margin-top: -10px;
+	background:url(back17vin.jpg) no-repeat fixed ;
+	color:#333366;
+}
+.nav{
+	width:1366px;
+	height:60px;
+	margin-left: -10px;
+	background:#F5EEE4;
+	line-height:44px;
+	animation:menu_lewat 1s;
+    position: fixed;
+}
+.nav ul{
+	list-style:none;
+	margin:0 px;
+	padding:0 px;
+}
+.nav ul ul{
+	display:none;
+	position:absolute;
+	margin-top:40px;
+	width:60px;
+}
+.nav ul  li {
+	float:left;
+}
+.nav ul ul li a{
+	width:200px;
+	text-align:left;
+	background:#724076;
+	border-radius:20px;
+	border:2px #766c77 solid;
+	padding-left:50px;
+}
+.nav ul li:hover ul{
+	display:block;
+	animation:mantul 1s;
+}
+@keyframes mantul {
+	0%{
+		margin-top:0px;opacity:0;
+	}
+	75%{
+		margin-top:50px;opacity:1;
+	}
+	100%{
+		margin-top:40px;opacity:1;
+	}
+}
+.nav ul li a{
+	float:right;
+	width:150px;
+	text-align:center;
+	color:#333366;
+	text-decoration:none;
+	text-transform:uppercase;
+	background:#F5EEE4;
+}
+.nav ul li a:hover{
+	background:#a38864;
+}
+.nav ul ul li a:hover{
+	background:#c8ad89;
+}
+.benteng{
+	width:1366px;
+	height:auto;
+	margin:0 auto;
+}
+.tambahan1{
+	width:1366px;
+	height:10px;
+	background:#F8C985;
+}
+.konten{
+	width:1366px;
+	height:1750px;
+	background:#78F09C;
+	
+}
+.text_konten{
+	width:1366px;
+	margin:0 auto;
+	padding:10px 0 10px 0;
+}
+.tambahan-footer{
+	width:1366px;
+	height:10px;
+	background:#F8C985;
+}
+.footer{
+	width:1366px;
+	height:100px;
+	margin:0 auto;
+	background:#020202;
+}
+.text-footer{
+	padding:15px 20px 10px 20px;
+	width:970;
+	height:80;
+	column-rule:2px ;
+	column-count:1;
+	column-width:200px;
+	color:#F5EEE4;
+}
+.galery{
+	width:44%; 
+	height:auto;
+	border:none;
+    padding-left: 54px;
+	
+}
+.galery img{
+	width:%;
+    height: 600px;
+	padding-top:1px;
+	padding-bottom:60px;
+	padding-left:3%;
+	padding-right:3%;
+}
+.frame_gambar{
+	display:none;
+	position:absolute;
+	width:100%;
+	height:100%;
+	background:rgba(151,140,140,0.3);
+	padding-top:110px;
+	overflow: auto;
+}

@@ -1,0 +1,107 @@
+.body{
+    background: url(back11vin.jpg);
+    height: 1000px;
+    width: auto;
+}
+.title h1{
+    font-size: 40px;
+    color:#F4C076;
+}
+.garis{
+    width: 579px;
+    height: 10px;
+    background:#FED394;
+    position: center;
+}
+.h2{
+    font-size: 20px;
+    color: #47E792;
+}
+.bar{
+    height: .4000em;
+    width: 45%;
+    background: #F8BA60;
+}
+input[type=text], input[type=password], input[type=date]{
+  font-size: 1.5em;
+  padding: .20em;
+  width: 25%;
+  margin-bottom: 0.5em;
+  border: border-style:groove;
+}
+.form h2 {
+  text-align: center;
+  font-weight: 50;
+  color:  	#5BCC7D;
+  margin-bottom: .1em;
+  margin-top: .2px;
+}
+.form h4 {
+  font-weight: 100;
+  color:  	#47E792;
+  margin-top: 2em;
+}
+
+.signup:hover {
+  color:  	#F3B65E;
+  width: 6.5em;
+  font-family: console;
+  font-weight:45;
+  border: 3px solid rgba(255, 255, 255, 0.85);
+  background: transparent;
+  border-radius: .200em;
+    text-decoration: none;
+    display: inline-block;
+     font-display: fallback;
+    font-size: 1.5em;
+  position: relative;
+  center: 1.5em;
+}
+.login:hover{
+    color:  	#F3B65E;
+  width: 6.5em;
+  font-family: console;
+  font-size: 2.5em;
+  border: 3px solid rgba(255, 255, 255, 0.87);
+  background: transparent;
+  border-radius: .200em;
+    text-decoration: none;
+    font-display: swap;
+   
+}
+.log:hover{
+    background: blue;
+}
+h1, h2 h3, h4, input {
+  font: Lato;
+  font-weight: 50;
+}
+.gen{
+   font-size: 1.2em;
+  padding: .505em;
+  width: 23.5%;
+  margin-bottom: 0.5em;
+  border: border-style:groove;
+    background: white;
+    color:grey;
+    text-align: left;
+}
+.gen2{
+    text-align: right;
+    font:Lato;
+    
+}
+.gam{
+   font-size: 1.2em;
+  padding: .505em;
+  width: 23.5%;
+  margin-bottom: 0.5em;
+  border: border-style:groove;
+    background: white;
+    color:grey;
+    text-align: left;
+}
+.gam2{
+    text-align:right;
+    font: Lato;
+}
